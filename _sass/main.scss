@@ -4,6 +4,10 @@
   font-family: 'Kanit', sans-serif;
 }
 
+.highlight span {
+    font-family: monospace;
+}
+
 a,
 a:visited {
   color: #000;
@@ -14,12 +18,15 @@ a:visited {
   align-items: center;
   align-content: center;
   height: 100vh;
+  justify-content: center;
 }
+
 .container{
   display: flex;
   flex-flow: column nowrap;
   flex: 1;
   align-items: center;
+  max-width: 700px;
 }
 
 .main-title{
@@ -52,7 +59,6 @@ a:visited {
 }
 
 .content {
-  max-width: 700px;
   margin: 20px auto;
   padding: 10px;
 }

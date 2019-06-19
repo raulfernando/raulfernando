@@ -5,6 +5,7 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Kanit:400,800,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/monokai.min.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -14,5 +15,7 @@
         {{ content }}
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
